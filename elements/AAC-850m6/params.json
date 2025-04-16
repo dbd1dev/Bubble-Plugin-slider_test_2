@@ -6,6 +6,6 @@
         "width": 400
     },
     "display": "range",
-    "icon": "ion-android-checkbox-blank",
+    "icon": "ion-levels",
     "platform_type": "web"
 }
