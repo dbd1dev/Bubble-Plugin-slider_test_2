@@ -1,76 +1,91 @@
 {
     "add_is_visible": true,
+    "autobinding_value": "number",
     "category": "visual elements",
     "default_dim": {
         "height": 60,
         "width": 400
     },
     "display": "Material UI Slider",
+    "fields": {
+        "0": {
+            "default_value": "#1976d2",
+            "description": "Color principal del slider (hexadecimal)",
+            "key": "main_color",
+            "label": "Color principal",
+            "rank": 0,
+            "type": "text"
+        },
+        "1": {
+            "default_value": "#e0e0e0",
+            "description": "Color de fondo de la pista (hexadecimal)",
+            "key": "bg_color",
+            "label": "Color de fondo",
+            "rank": 1,
+            "type": "text"
+        },
+        "2": {
+            "default_value": "#1976d2",
+            "description": "Color del thumb (manija) (hexadecimal)",
+            "key": "thumb_color",
+            "label": "Color del thumb",
+            "rank": 2,
+            "type": "text"
+        },
+        "3": {
+            "default_value": 6,
+            "description": "Grosor de la pista en píxeles",
+            "key": "track_thickness",
+            "label": "Grosor de la pista",
+            "rank": 3,
+            "type": "integer"
+        },
+        "4": {
+            "default_value": 400,
+            "description": "Ancho del slider en píxeles",
+            "key": "slider_width",
+            "label": "Ancho",
+            "rank": 4,
+            "type": "integer"
+        },
+        "5": {
+            "default_value": 0,
+            "description": "Valor mínimo del slider",
+            "key": "min",
+            "label": "Valor mínimo",
+            "rank": 5,
+            "type": "integer"
+        },
+        "6": {
+            "default_value": 100,
+            "description": "Valor máximo del slider",
+            "key": "max",
+            "label": "Valor máximo",
+            "rank": 6,
+            "type": "integer"
+        },
+        "7": {
+            "default_value": 1,
+            "description": "Incremento del slider",
+            "key": "step",
+            "label": "Paso",
+            "rank": 7,
+            "type": "integer"
+        },
+        "8": {
+            "default_value": 50,
+            "description": "Valor inicial del slider",
+            "key": "initial_value",
+            "label": "Valor inicial",
+            "rank": 8,
+            "type": "integer"
+        }
+    },
     "icon": "ion-levels",
     "platform_type": "web",
-    "fields": [
-        {
-            "label": "Color principal",
-            "key": "main_color",
-            "type": "text",
-            "default_value": "#1976d2",
-            "description": "Color principal del slider (hexadecimal)"
-        },
-        {
-            "label": "Color de fondo",
-            "key": "bg_color",
-            "type": "text",
-            "default_value": "#e0e0e0",
-            "description": "Color de fondo de la pista (hexadecimal)"
-        },
-        {
-            "label": "Color del thumb",
-            "key": "thumb_color",
-            "type": "text",
-            "default_value": "#1976d2",
-            "description": "Color del thumb (manija) (hexadecimal)"
-        },
-        {
-            "label": "Grosor de la pista",
-            "key": "track_thickness",
-            "type": "integer",
-            "default_value": 6,
-            "description": "Grosor de la pista en píxeles"
-        },
-        {
-            "label": "Ancho",
-            "key": "slider_width",
-            "type": "integer",
-            "default_value": 400,
-            "description": "Ancho del slider en píxeles"
-        },
-        {
-            "label": "Valor mínimo",
-            "key": "min",
-            "type": "integer",
-            "default_value": 0,
-            "description": "Valor mínimo del slider"
-        },
-        {
-            "label": "Valor máximo",
-            "key": "max",
-            "type": "integer",
-            "default_value": 100,
-            "description": "Valor máximo del slider"
-        },
-        {
-            "label": "Paso",
-            "key": "step",
-            "type": "integer",
-            "default_value": 1,
-            "description": "Incremento del slider"
-        },
-        {
-            "label": "Valor inicial",
-            "key": "initial_value",
-            "type": "integer",
-            "default_value": 50,
-            "description": "Valor inicial del slider"
-        }
-    ]
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "support_autobinding": true
 }
