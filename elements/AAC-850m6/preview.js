@@ -1,4 +1,4 @@
-function(instance, properties) {
+function(instance, properties, context) {
     // Limpiar el contenedor
     if (!instance.canvas) return;
     instance.canvas.innerHTML = "";
